@@ -112,16 +112,16 @@ Stacked the word vector and character vectors of the training and test data. As 
  
 3) **SGD Classifier Model:**  
    
-1) **SGD Classifier with squared hinge loss function:**  
+4) **SGD Classifier with squared hinge loss function:**  
 
-2) **SGD Classifier with  hinge loss function:**
+5) **SGD Classifier with  hinge loss function:**
 
-**4\) Multilayer perceptron**
+6) **Multilayer perceptron**
 
-**6\) Word2Vec with Logistic Regression**
+7) **Word2Vec with Logistic Regression**
 
-**7\) XGBoost** 
+8) **XGBoost** 
 
-**8\) Feature Extraction**
+9) **Feature Extraction**
 
 
