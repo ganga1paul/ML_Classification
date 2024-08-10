@@ -78,27 +78,18 @@ Then finally we find the TF-IDF value for each word by multiplying TF and IDF va
 **Unigrams :** Used TF-IDF vectorizer to find the most occurring unigram and plotted the occurrence of words  
 
 
-![][image34]  
-![][image35]
 
 **TF-IDF top words per class (bigrams)**  
 Bigrams are two consecutive words in a sentence whereas unigrams are single words.  
 Found which two words are occuring most frequently and plotted the frequency in each class.  
-![][image36]  
-![][image37]  
-![][image38]  
-![][image39]  
+
 **Model building using Direct Features:** 
 
 Checked the presence of null values in test data. Found there are some null values in test data. Filled the NA values with empty space.  
-![][image40]![][image41]
-
 **TF-IDF Vectorization for word and characters:**  
 Used the TfidfVectorizer function from sklearn and created a word vector of unigrams, bigrams and trigrams. Took into account 20000 max features, and made lowercase= True, so that there won’t be any discrepancy between upper and lower case letters so this will convert all the words into lowercase. Make stop\_words \= ‘english’ so that very common stop words that are very frequent in the english language will be removed while calculating the TF-IDF score. Ngram\_range is chosen as (1,3) so it will take into account all n grams in between 1 and 3\. Analyzer \= ‘word’ so that we are creating only word vectors for now. 
 
 Then if we put analyzer \= ‘char’ then we will create character n gram vectors where also we chose the max\_features as 40000 and ngram\_range \= (3,6) so we took tri gram to 6-gram character vectors.
-
-**![][image42]**
 
 Then we used fit\_transform to fit and transform the training text data according to the word and character n gram vector. Then we used these vectors to transform the test text data.  
 
