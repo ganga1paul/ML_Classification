@@ -114,5 +114,6 @@ Stacked the word vector and character vectors of the training and test data. As 
 8) **XGBoost** 
 
 9) **Feature Extraction**
+10) **Random Forest**
 
 
